@@ -29,10 +29,6 @@ const filteredServices = () => {
 <template>
   <section class="animate-fade-up">
     <div class="mb-5 flex items-center justify-between gap-4">
-      <div class="flex h-10 w-full max-w-[250px] items-center rounded-full bg-[#f5f7fb] px-4 sm:hidden">
-        <img src="/src/assets/search.png" alt="Search" class="mr-2 h-4 w-4 opacity-60" />
-        <input v-model="query" class="w-full bg-transparent text-[11px] outline-none placeholder:text-[#9aa6bd]" placeholder="Search for something" />
-      </div>
     </div>
 
     <div class="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-3 md:overflow-visible md:pb-0">
