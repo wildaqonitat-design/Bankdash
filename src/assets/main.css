@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root { color-scheme: light; font-family: 'DM Sans', sans-serif; }
+html { background: #f5f7fb; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: #f5f7fb; color: #232323; font-family: 'DM Sans', sans-serif; }
+#app { min-height: 100vh; }
+button,input,select { font: inherit; }
+button { cursor: pointer; }
+img { display: block; max-width: 100%; }
+input[type='search']::-webkit-search-cancel-button { display:none; }
+.animate-fade-up { animation: fadeUp .28s ease-out both; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+@media (max-width: 639px) { body { overflow-x:hidden; } }
