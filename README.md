@@ -35,4 +35,11 @@ Untuk melihat hasil build secara lokal:
 npm run preview
 ```
 
+```link github
+https://wildaqonitat-design.github.io/Bankdash/
+```
+```link live
+http://localhost:5173/
+```
+
 The UI uses responsive Tailwind breakpoints for desktop, tablet, and mobile. Sidebar becomes a mobile drawer, tables scroll horizontally on small screens, and interactive controls show feedback toasts.
